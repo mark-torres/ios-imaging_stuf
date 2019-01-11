@@ -12,6 +12,7 @@
 		A95632AD21E7C34300BB2340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95632AB21E7C34300BB2340 /* Main.storyboard */; };
 		A95632AF21E7C34600BB2340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95632AE21E7C34600BB2340 /* Assets.xcassets */; };
 		A95632B221E7C34600BB2340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95632B021E7C34600BB2340 /* LaunchScreen.storyboard */; };
+		A95632BA21E7C41700BB2340 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95632B921E7C41700BB2340 /* SliderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A95632AE21E7C34600BB2340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A95632B121E7C34600BB2340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A95632B321E7C34600BB2340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95632B921E7C41700BB2340 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				A95632AE21E7C34600BB2340 /* Assets.xcassets */,
 				A95632B021E7C34600BB2340 /* LaunchScreen.storyboard */,
 				A95632B321E7C34600BB2340 /* Info.plist */,
+				A95632B921E7C41700BB2340 /* SliderViewController.swift */,
 			);
 			path = "Imaging Stuff";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A95632BA21E7C41700BB2340 /* SliderViewController.swift in Sources */,
 				A95632AA21E7C34300BB2340 /* ViewController.swift in Sources */,
 				A95632A821E7C34300BB2340 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VPJJQVPPXZ;
 				INFOPLIST_FILE = "Imaging Stuff/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hsoftmobile.Imaging-Stuff";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VPJJQVPPXZ;
 				INFOPLIST_FILE = "Imaging Stuff/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hsoftmobile.Imaging-Stuff";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
